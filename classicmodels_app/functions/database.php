@@ -19,9 +19,13 @@ This function will be used to connect to the database
   */
   function db_close($link){
     if(mysqli_close($link)){
-    echo "Database Closed";
+    //echo "Database Closed";
     }else{
-      echo "Database could not be closed";
+      //echo "Database could not be closed";
     }
+  }
+  function redirect($url){
+    echo '<script>
+    window.location("'.$url.'")</script>';
   }
  ?>

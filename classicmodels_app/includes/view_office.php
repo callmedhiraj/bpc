@@ -29,11 +29,11 @@ echo '</pre>';
         
         <td class="center">
            
-            <a class="btn btn-info" href="#">
+            <a class="btn btn-info" href="index.php?page=office&action=edit&id=<?php echo $office['officeCode']; ?>">
                 <i class="glyphicon glyphicon-edit icon-white"></i>
                 Edit
             </a>
-            <a class="btn btn-danger" href="#">
+            <a class="btn btn-danger" href="index.php?page=office&action=delete&id=<?php echo $office['officeCode']; ?>">
                 <i class="glyphicon glyphicon-trash icon-white"></i>
                 Delete
             </a>
